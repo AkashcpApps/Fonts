@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:foo="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+  <com.akash.cp.vtu.font.CustomFont
+      android:layout_height="wrap_content"
+      android:id="@+id/t1"
+      android:visibility="gone"
+      android:layout_width="match_parent"
+      android:text="This is our custom font \n">
+  </com.akash.cp.vtu.font.CustomFont>
+  <com.akash.cp.vtu.font.CustomFont
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:visibility="gone"
+      android:id="@+id/t2"
+      android:text="This is our custom font "
+      foo:customFont="bangers.ttf">
+  </com.akash.cp.vtu.font.CustomFont>
+  <com.akash.cp.vtu.font.StudentContinentNormalTextView
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:visibility="gone"
+      android:text="This is our custom font ">
+  </com.akash.cp.vtu.font.StudentContinentNormalTextView>
+
+  <com.akash.cp.vtu.font.StudentContinentNormalTextView
+      android:layout_width="match_parent"
+      android:textColor="@color/black"
+      android:text="This is our custom font ~ Normal "
+      android:layout_height="wrap_content">
+  </com.akash.cp.vtu.font.StudentContinentNormalTextView>
+
+  <com.akash.cp.vtu.font.StudentContinentBoldTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="This is our custom font ~ Bold"
+      android:textColor="@color/black">
+  </com.akash.cp.vtu.font.StudentContinentBoldTextView>
+
+  <com.akash.cp.vtu.font.StudentContinentItalicTextView
+      android:layout_width="match_parent"
+      android:textColor="@color/black"
+      android:text="This is our custom font ~ Italic"
+      android:layout_height="wrap_content">
+  </com.akash.cp.vtu.font.StudentContinentItalicTextView>
+
+  <com.akash.cp.vtu.font.StudentContinentUnderLineTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="This is our custom font ~ UnderLine"
+      android:textColor="@color/black">
+
+  </com.akash.cp.vtu.font.StudentContinentUnderLineTextView>
+
+
+
+
+</LinearLayout>
